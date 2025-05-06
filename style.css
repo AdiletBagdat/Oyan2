@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Занимает всю высоту экрана */
+}
+
+.image-container {
+    width: 50%; /* Контейнер на всю ширину */
+    display: flex;
+    justify-content: center; /* Центрирование изображения в контейнере */
+    align-items: center; /* Центрирование по вертикали (если контейнер больше высоты изображения) */
+    margin-bottom: 20px; /* Отступ между изображениями */
+}
+
+.image-container:last-child {
+    margin-bottom: 0;
+}
